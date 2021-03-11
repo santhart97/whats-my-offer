@@ -24,5 +24,12 @@ The purpose of doing this was to find the right offer for the car you are buying
 - I started with 10 different data sets, one for each brand, once I put them together the shape of my dataframe was 101311 rows × 8 columns. Once cleaned the dataframe had 98932 rows × 8 columns.
 - I dropped null values and turn the types of columns to floats were necessary.
 - The final data looked like this:
-<img src='images/clean.png'>
+![alt](images/clean.png)
+![alt](images/dtypes.png)
 
+2. Visualization
+-  After the data was cleaned I used matplotlib and seaborn to visualize it in order to have a better idea of what my variables look like.
+- I looked for the relation between certain variable and price.
+![alt](images/pricexmodel.png)
+![alt](images/pricexmileage.png)
+![alt](images/pricexengine.png)
