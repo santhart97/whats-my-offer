@@ -5,6 +5,8 @@ import pickle
 
 st.image("https://www.jamjar.com/wp-content/uploads/2018/05/Should-I-sell-my-car_.jpg")
 
+st.image('images/clean.png')
+
 model = pickle.load(open('gbr.pkl','rb'))
 
 def main():
@@ -26,11 +28,11 @@ def main():
         else:
             my_car[f'Brand_{brand}'] = 0
     
-    my_car["Year"] = st.number_input("Year:")
-   
-    my_car["Mileage"] = st.number_input("Mileage:")
+    my_car["Year"] = st.number_input("Year:", 1970, 2020, step=1)
 
-    my_car["EngineSize"] =  st.number_input("EngineSize:")
+    my_car["Mileage"] = st.number_input("Mileage:", 0, 500000, step=100)
+
+    my_car["EngineSize"] =  st.number_input("EngineSize:", 0.1, 10.0, step=0.1)
 
 
     fuel_types = ['Petrol','Diesel', 'Hybrid', 'Electric']
@@ -52,8 +54,6 @@ def main():
             my_car[f'Transmission_{transmission}'] = 1
         else:
             my_car[f'Transmission_{transmission}'] = 0
-
-    st.write(str(my_car))
     
     submit = st.button('Predict')
 
@@ -73,7 +73,8 @@ def main():
         my_car_df = my_car.reindex(index=ordered_predictors).to_frame()
         
         prediction = model.predict(my_car_df.values.T)[0].round(-2)
-        st.success(str(prediction))
+        st.success(prediction)
+
 
  
 
