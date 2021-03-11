@@ -44,7 +44,7 @@ The purpose of doing this model is to facilitate the selling or buying by granti
 
 4. Streamlit
 - For the last step I used streamlit to create my app.
-![alt](images/streamlit.png)
+![](images/streamlit.png)
 
 
 
