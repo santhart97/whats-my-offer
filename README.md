@@ -26,21 +26,29 @@ The purpose of doing this model is to facilitate the selling or buying by granti
 - I dropped null values and turn the types of columns to floats were necessary.
 - The final data looked like this:
 <p align="center">
-  <img width="700" height="450" src="https://github.com/santhart97/whats-my-offer/blob/main/Images/streamlit.png">
+  <img src="https://github.com/santhart97/whats-my-offer/blob/main/Images/clean.png">
 </p>
 
-
-![alt](images/clean.png)
-![alt](images/dtypes.png)
+<p align="center">
+  <img src="https://github.com/santhart97/whats-my-offer/blob/main/Images/dtypes.png">
+</p>
 
 
 2. Visualization
 -  After the data was cleaned I used matplotlib and seaborn to visualize it in order to have a better idea of what my variables look like.
 - I looked for the relation between certain variable and price.
-![alt](images/pricexmodel.png)
-![alt](images/pricexmileage.png)
-![alt](images/pricexengine.png)
 
+<p align="center">
+  <img src="https://github.com/santhart97/whats-my-offer/blob/main/Images/pricexmodel.png">
+</p>
+
+<p align="center">
+  <img src="https://github.com/santhart97/whats-my-offer/blob/main/Images/pricexmileage.png">
+</p>
+
+<p align="center">
+  <img src="https://github.com/santhart97/whats-my-offer/blob/main/Images/pricexengine.png">
+</p>
 
 3. Modelling
 - For the third I looked for the most accurate model.
@@ -49,7 +57,9 @@ The purpose of doing this model is to facilitate the selling or buying by granti
 
 4. Streamlit
 - For the last step I used streamlit to create my app.
-![alt](streamlit.png)
+<p align="center">
+  <img src="https://github.com/santhart97/whats-my-offer/blob/main/Images/streamlit.png">
+</p>
 
 
 
