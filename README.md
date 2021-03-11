@@ -6,8 +6,7 @@
 
 ## Topic
 
-For this project, I wanted to implement what I have learned on the Data Analytics Bootcamp by Ironhack to and industry that I am passionate and curious about. So I chose to delve into the automotive industry and to predict the price of a second hand car.
-I wanted to see what would the **right** price be for a car I wanted to buy or to sell.
+For this project, I wanted to implement the knowledge I gained on the Data Analytics Bootcamp by Ironhack to and industry that I am passionate about. So I chose to delve into the automotive industry and to create a model that predicts the price of a second hand car. I wanted to see what would the right price be for a car I wanted to buy or to sell.
 
 To do this the first step was to find an appropiate dataset I could work with. After much research I found [this](https://www.kaggle.com/adityadesai13/used-car-dataset-ford-and-mercedes) data set from Kaggle.
 
@@ -15,8 +14,8 @@ To do this the first step was to find an appropiate dataset I could work with. A
 
 ## Aim
 
-The aim of the project was to create a model that could predict the *price* of a car given certain variables. 
-The purpose of doing this was to find the right offer for the car you are buying or selling.
+The aim of the project is to create a model that could predict the appropiate *price* of a car given certain variables; Brand, Year, Mileage, Engine Size, Fuel Type, Transmission. 
+The purpose of doing this model is to facilitate the selling or buying by granting the correct cost of a car.
 
 
 
@@ -72,11 +71,13 @@ The purpose of doing this was to find the right offer for the car you are buying
 
 ## Conclusions and Future Work
 
-Through the use of ML and streamlit I created an app that can predict the price of a car. However, there are many improvements tha could be done in the future.
+Through the use of ML and streamlit I created an app that can predict the price of a car based on the variables mentioned above.
+
+There are some improvements that could be done in the future.
 
 
 1. Data:
-- In order for the predictions to be more accurate more parameters could be used such as condition of the car, number of doors, type of car (SUV, Convertible, etc...), among many others.
+- In order for the predictions to be more accurate more parameters could be used such as; condition of the car, number of doors, type of car (SUV, Convertible, etc...), among others.
 
 
 2. Models:
@@ -89,6 +90,6 @@ Through the use of ML and streamlit I created an app that can predict the price 
 
 
 4. Deployment:
-- I also wanted to use Heroku to deploy my app.
+- Heroku could be used in the future to deploy the app.
 
 
