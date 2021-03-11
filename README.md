@@ -21,6 +21,9 @@ The purpose of doing this was to find the right offer for the car you are buying
 ## Process
 
 1. Exploration and Cleaning 
-- First 
+- I started with 10 different data sets, one for each brand, once I put them together the shape of my dataframe was 101311 rows × 8 columns. Once cleaned the dataframe had 98932 rows × 8 columns.
+- I dropped null values and turn the types of columns to floats were necessary.
+- The final data looked like this:
+![alt](images/clean)
 
 
