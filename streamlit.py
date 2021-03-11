@@ -27,7 +27,7 @@ def main():
             my_car[f'Brand_{brand}'] = 0
     
     my_car["Year"] = st.number_input("Year:")
-
+   
     my_car["Mileage"] = st.number_input("Mileage:")
 
     my_car["EngineSize"] =  st.number_input("EngineSize:")
