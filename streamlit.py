@@ -5,8 +5,6 @@ import pickle
 
 st.image("https://www.jamjar.com/wp-content/uploads/2018/05/Should-I-sell-my-car_.jpg")
 
-st.image('images/clean.png')
-
 model = pickle.load(open('gbr.pkl','rb'))
 
 def main():
@@ -73,6 +71,7 @@ def main():
         my_car_df = my_car.reindex(index=ordered_predictors).to_frame()
         
         prediction = model.predict(my_car_df.values.T)[0].round(-2)
+        st.write('Your car is worth:')
         st.success(prediction)
 
 

@@ -29,9 +29,6 @@ The purpose of doing this model is to facilitate the selling or buying by granti
   <img src="https://github.com/santhart97/whats-my-offer/blob/main/Images/clean.png">
 </p>
 
-<p align="center">
-  <img src="https://github.com/santhart97/whats-my-offer/blob/main/Images/dtypes.png">
-</p>
 
 
 2. Visualization
